@@ -2,4 +2,4 @@ FROM python:2.7
 
 RUN apt update
 
-RUN apt -y install apache2-dev mysql-client-default
+RUN apt -y install apache2-dev default-mysql-client
